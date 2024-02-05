@@ -15,6 +15,8 @@ import Layout from '../layouts/Layout.vue';
                 </h2>
             </div>
 
+            <!--  -->
+
 
             <div
                 class="box-content bg-white shadow-lg shadow-gray-300/50 mt-10 ml-5 mr-5 pt-10 pb-6 pl-6 pr-6 mb-10 rounded-lg">
