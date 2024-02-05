@@ -4,6 +4,8 @@ import Home from '../views/Home.vue'
 import Dashboard from '../views/Dashboard.vue'
 import Chatbot from '../views/Chatbot.vue'
 import SugarValue from '../views/SugarValue.vue';
+import Knowledge from '../views/Knowledge.vue';
+import Quiz from '../views/Quiz.vue';
 
  /* login-register พยาบาล */
 import LoginNurse from '../views/Authentication/LoginNurse.vue';
@@ -75,6 +77,16 @@ const routes = [
     path: '/sugar-value',
     name: 'SugarValue',
     component: SugarValue,
+  },
+  {
+    path: '/knowledge',
+    name: 'knowledge',
+    component: Knowledge,
+  },
+  {
+    path: '/knowledge/quiz',
+    name: 'quiz',
+    component: Quiz,
   },
  
 
